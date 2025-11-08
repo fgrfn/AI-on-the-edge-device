@@ -3,6 +3,7 @@
 <br>
 
 OV3660 CAMERA SUPPORT
+
 in the AI-on-the-edge-device/tree/main/code/sdkconfig.defaults
 
 CONFIG_CAMERA_CORE0=n
