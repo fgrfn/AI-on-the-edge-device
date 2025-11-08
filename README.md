@@ -2,6 +2,22 @@
 <br>
 <br>
 
+OV3660 CAMERA SUPPORT
+in the AI-on-the-edge-device/tree/main/code/sdkconfig.defaults
+
+CONFIG_CAMERA_CORE0=n
+CONFIG_CAMERA_CORE1=y
+CONFIG_OV7670_SUPPORT=n
+CONFIG_OV7725_SUPPORT=n
+CONFIG_NT99141_SUPPORT=n
+CONFIG_OV3660_SUPPORT=n >> change to  >> CONFIG_OV3660_SUPPORT=y
+CONFIG_OV2640_SUPPORT=y
+CONFIG_OV5640_SUPPORT=y
+CONFIG_GC2145_SUPPORT=n
+CONFIG_GC032A_SUPPORT=n
+CONFIG_GC0308_SUPPORT=n
+CONFIG_BF3005_SUPPORT=n
+
 ## Table of Contents
 - [Key Features 🚀](#key-features-)
 - [Workflow 🔧](#workflow-)
